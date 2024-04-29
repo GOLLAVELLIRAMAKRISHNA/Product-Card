@@ -1,0 +1,90 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url("pattern-background-desktop.svg");
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    width: 350px;
+    height: 505px;
+    border-radius: 15px;
+    background-color: #fff;
+    background-repeat:no-repeat;
+    overflow:hidden;
+    box-shadow:0 4px 6px 1px rgba(0,0,0,0.1), 3px 4px 5px 0 rgba(0,0,0,0.1);
+}
+.container .img{
+    width: 350px;
+    height: 180px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.container .prodetails{
+    padding: 10px 30px;
+    text-align:center;
+}
+.container .prodetails h2{
+    font-size: 22px;
+    padding:15px 0px 10px;
+    font-weight: 800;
+    color: #222;
+}
+.container .prodetails p{
+    font-size:12.2px;
+    color: #777;
+    padding:5px 10px 2px;
+    margin-bottom:15px;
+}
+.container .prodetails .amount-details{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    width:290px;
+    background-color:rgb(240, 250, 254);
+    height: 70px;
+    border-radius: 10px;
+}
+.amount-details img{
+    width:40px;
+    margin: 15px;
+}
+.price{
+    padding-right: 50px;
+    font-weight:700;
+}
+.price span{
+    color:#777;
+    font-size:13px;
+    font-weight: 400;
+    margin-right:20px;
+}
+.amount-details a{
+    padding-right: 20px;
+    font-size:14px;
+    font-weight:700;
+    color:#0700dae6;
+}
+.prodetails input{
+    width:97%;
+    height:38px;
+    font-size: 14px;
+    font-weight:700;
+    margin: 22px 0 15px;
+    border: none;
+    border-radius:10px;
+    background-color:#0700dae6;
+    color:#fff;
+    box-shadow:0 4px 6px 1px rgba(0,0,0,0.1), 3px 4px 5px 0 rgba(0,0,0,0.1);
+}
+.a{
+    font-size: 13px;
+    font-weight:700;
+    color:#777;
+}
